@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq -wc 3 list
+sort | uniq -u
