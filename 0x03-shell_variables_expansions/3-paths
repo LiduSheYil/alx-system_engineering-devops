@@ -1,2 +1,2 @@
 #!/bin/bash
-export PATH
+IFS=':' read -ra dirs <<< "$PATH"
