@@ -1,2 +1,2 @@
 #!/bin/bash
-IFS=':' read -ra dirs <<< "$PATH"
+count=$(echo "$PATH" | wc -l)
